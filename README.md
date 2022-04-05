@@ -19,7 +19,7 @@
 Describe: ticketPrice(); 
 
 Test: "It stores user input as a variable."
-Code: ticketPrice(price);
+Code: ticketPrice(10);
 Expected Output: "10"
 
 Test: "It converts user input from a string to a number."

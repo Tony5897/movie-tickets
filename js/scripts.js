@@ -1,12 +1,10 @@
 // Business Logic ---------//
 
-// Example Text//
 
-
-
-
-
-
+function ticketPrice(price) {
+  return price; 
+  console.log(price); 
+} 
 
 
 
