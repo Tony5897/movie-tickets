@@ -14,10 +14,9 @@ function ticketPrice(price, movieSelection) {
   } 
 } 
 
-
-
-
-
+function timeOfDay(time) {
+  return time;
+};
 
 
 

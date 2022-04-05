@@ -33,8 +33,8 @@ Expected Output: 12
 Describe: timeOfDay();
 
 Test: "It return the time of day"
-Code: timeOfDay(12:00);
-Expected Output: matinee
+Code: timeOfDay("noon");
+Expected Output: "noon"
 
 Test: "It converts price based on time of day, it subracts 2 dollar based on time of day."
 Code:timeOfDay(12:00);
