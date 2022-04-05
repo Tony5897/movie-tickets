@@ -22,10 +22,6 @@ Test: "It stores user input as a variable."
 Code: ticketPrice(10);
 Expected Output: "10"
 
-Test: "It converts user input from a string to a number."
-Code: ticketPrice(price)
-Expected Output: 10
-
 Test: "It returns a unique price based on the title of the selection subtracting 4 dollars for old movies."
 Code: ticketPrice("Star Wars");
 Expected Output: 6
