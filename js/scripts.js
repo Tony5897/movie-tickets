@@ -23,6 +23,17 @@ function timeOfDay(price, timeSelection) {
   }
 };
 
+function ageOfUser(price, age) {
+  if (age <= 12) {
+    return price - 2;
+  } else if (age <= 59) {
+    return price;
+  } else if (age >= 60) {
+    return price - 1;
+  } else {
+  return price;
+  }
+};
 
 
 
