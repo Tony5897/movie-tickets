@@ -13,9 +13,14 @@ function ticketPrice(price, movieSelection) {
   return price; 
   } 
 } 
+const matinee = "noon"
 
-function timeOfDay(time) {
-  return time;
+function timeOfDay(price, timeSelection) {
+  if (timeSelection === "noon") {
+    return price - 2;
+  } else {
+    return price;
+  }
 };
 
 

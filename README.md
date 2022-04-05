@@ -37,10 +37,10 @@ Code: timeOfDay("noon");
 Expected Output: "noon"
 
 Test: "It converts price based on time of day, it subracts 2 dollar based on time of day."
-Code:timeOfDay(12:00);
+Code:timeOfDay("noon");
 Expected Output: 8
 
-code: timeOfDay(7:00);
+code: timeOfDay("night");
 Expected Output: 10
 
 Describe: ageOfUser();
