@@ -34,9 +34,25 @@ function ageOfUser(price, age) {
   return price;
   }
 };
+//Business logic for tickets
+function Tickets(price, age, timeOfDay, movieSelection) {
+  this.price = price;
+  this.age = age;
+  this.timeOfDay = timeOfDay;
+  this.movieSelection = movieSelection;  
+};
 
-
-
+// Tickets.prototype.ageOfUser(age){
+//   if (this.age <= 12) {
+//     return this.price - 2;
+//   } else if (this.age <= 59) {
+//     return this.price;
+//   } else if (this.age >= 60) {
+//     return this.price - 1;
+//   } else {
+//   return this.price;
+//   }
+// };
 
 
 
