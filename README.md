@@ -1,5 +1,4 @@
-***By Tony Martinez***
-  *_THIS A README TEMPLATE FOR PROJECTS_
+
 
 # **Title-of-the-Project/Name**
 
@@ -16,7 +15,75 @@
  * _Why_
  * _How_
 
+## TESTS 
+Describe: ticketPrice(); 
+
+Test: "It stores user input as a variable."
+Code: ticketPrice(price);
+Expected Output: "10"
+
+Test: "It converts user input from a string to a number."
+Code: ticketPrice(price)
+Expected Output: 10
+
+Test: "It returns a unique price based on the title of the selection subtracting 4 dollars for old movies."
+Code: ticketPrice("Star Wars");
+Expected Output: 6
+
+Test: "It returns a unique price based on the title of the selection adding 2 dollars for new releases."
+Code: ticketPrice("The Bunny Rabbit");
+Expected Output: 12
+
+Describe: timeOfDay();
+
+Test: "It return the time of day"
+Code: timeOfDay(12:00);
+Expected Output: matinee
+
+Test: "It converts price based on time of day, it subracts 2 dollar based on time of day."
+Code:timeOfDay(12:00);
+Expected Output: 8
+
+code: timeOfDay(7:00);
+Expected Output: 10
+
+Describe: ageOfUser();
+
+Test: "It should determine the age of the user."
+Code: ageOfUser(60);
+Expected Output: 60
+
+Test: "It should change the price based on the user age by 1 dollar."
+Code: ageOfUser(61);
+Expected Output: 9
+
+Test: "It should the price by 2 dollars for kids."
+Code: ageOfUser(7);
+Expected Output: 8
+
+Test: "It should return base price for ages 12-59 years old."
+Code: ageOfUser(24);
+Expected Output: 10
+
 # Expected Output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## *Business Logic*
